@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tugas CSS</title>
+        <link rel="icon" href="image/icon.png">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            header {
+                background-image: url(image/header1.jpg);
+                background-size: 1350px;
+                padding: 30px;
+                text-align: center;
+                font-size: 35px;
+                color: #FF8C00;
+            }
+
+            nav {
+                float: left;
+                width: 30%;
+                height: 300px;
+                background: #FFDAB9;
+                padding: 20px;
+                background-image: url(image/naruto2.jfif);
+                background-size: 405px;
+            }
+
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+            article {
+                float: left;
+                padding: 20px;
+                width: 70%;
+                background-color: #b219e6;
+                height: 300px;
+                color: white;
+            }
+
+            section::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            footer {
+                background-color: black;
+                padding: 10px;
+                text-align: center;
+                color: pink;
+            }
+
+            @media (max-width: 600px) {
+                nav, article {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h2>Naruto Shippuden</h2>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="https://id.wikipedia.org/wiki/Naruto_Uzumaki">Naruto</a></li>
+                    <li><a href="https://id.wikipedia.org/wiki/Sasuke_Uchiha">Sasuke</a></li>
+                    <li><a href="https://id.wikipedia.org/wiki/Sakura_Haruno">Sakura</a></li>
+                </ul>
+            </nav>
+            <article>
+                <h1>Naruto Shippuden</h1>
+                <p>
+                    Naruto Shippuden adalah sebuah seri anime yang diadaptasi dari bagian II manga Naruto. 
+                    Serial ini disutradarai oleh Hayato Date dan diproduksi oleh Studio Pierrot dan TV Tokyo. 
+                    Pada bagian ini, pergerakan organisasi Akatsuki semakin terlihat. 
+                    Naruto Shippuden juga telah dibuat versi filmnya dengan judul Naruto Shippuden The Movie 
+                    yang dirilis di Jepang pada Agustus 2007. 
+                </p>
+                <p>
+                    Film ini menceritakan tentang usaha ninja jahat dalam membangkitkan Mouryou, roh jahat 
+                    yang telah dikalahkan 20 tahun yang lalu. Setelah Naruto Shippuden The Movie dirilis, 
+                    hadir pula Naruto Shippuden The Movie 2: Bond. Film ini menceritakan serangan kelompok 
+                    ninja dari Negara Langit kepada Desa Konoha. Kemudian Naruto Shippuden The Movie 3: Inheritors 
+                    of The Will of Fire. Di sini diceritakan Desa Konoha dituduh sebagai dalang penyebab para ninja 
+                    dengan Kekkei Genkai menghilang dari Desa Suna, Desa Kiri, Desa Kumo dan Desa Iwa. Di Indonesia, 
+                    Naruto Shippuden sempat ditayangkan di Indosiar dan GTV.
+                </p>
+            </article>
+        </section>
+
+        <footer>
+            <p>
+                &copy;PrakDesWeb<br>
+                Arni Nazira | 21104410077
+            </p>
+        </footer>
+    </body>
+</html>
